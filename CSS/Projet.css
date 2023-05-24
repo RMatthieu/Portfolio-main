@@ -1,0 +1,45 @@
+main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 40px 40px 40px 40px;
+}
+
+main ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main ul li {
+    height: 280px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main ul li p {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    word-break: break-word;
+    overflow: hidden;
+}
+
+main ul li a {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    padding: 0;
+    word-break: break-word;
+    overflow: hidden;
+}
+
