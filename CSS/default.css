@@ -10,7 +10,7 @@ body{
     
 }
 
-#default nav ul {
+#header-default nav ul, #footer-default nav ul {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ li a {
     padding: 1em 2em 1em 2em;
 }
 
-header#default nav ul li:hover {
+header#header-default nav ul li:hover {
     background-color: white; 
     border-radius: 25px;
 }
@@ -49,21 +49,21 @@ body {
     text-align: center;
 }
 
-footer#default p {
+footer#footer-default p {
     background-color: #2596be;
     margin: 0;
     text-align: center;
     padding-bottom: 10px;
 }
 
-#default nav ul li img {
+footer#footer-default nav ul li a img {
     width: 32px;
     height: 32px;
     object-fit: cover;
     border-radius: 5px 5px 5px 5px ;
 }
 
-footer#default nav ul li a {
+footer#footer-default nav ul li a {
     width: 32px;
     height: 32px;
     padding: 1em 1em 1em 1em;
