@@ -74,3 +74,10 @@ hr {
     width: 50px;
     margin-top: 25px;
 }
+
+#footer-default {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
