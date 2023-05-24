@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px 40px 40px 40px;
+}
+
+div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+}
+
+div div p {
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
